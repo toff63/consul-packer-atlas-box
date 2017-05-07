@@ -7,7 +7,7 @@ sudo apt-get install -y unzip curl
 
 echo Fetching Consul UI
 cd /tmp/
-wget https://releases.hashicorp.com/consul/0.6.0/consul_0.6.0_web_ui.zip -O consul-ui.zip
+wget https://releases.hashicorp.com/consul/0.8.1/consul_0.8.1_web_ui.zip -O consul-ui.zip
 
 echo Installing UI
 mkdir /home/vagrant/ui
